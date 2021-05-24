@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="Blackjack"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:paddingLeft="9dp"
+            android:text="Mesa"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5">
+
+        <View
+            android:layout_marginLeft="9dp"
+            android:id="@+id/v11"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_weight="1"
+            android:textSize="50sp"/>
+
+        <View
+            android:layout_marginLeft="9dp"
+            android:id="@+id/v12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_weight="1"
+            android:textSize="50sp"
+            />
+
+        <View
+            android:layout_marginLeft="9dp"
+            android:id="@+id/v13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_weight="1"
+            android:textSize="50sp"
+            />
+
+        <View
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:id="@+id/v14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_weight="1"
+            android:textSize="50sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="bottom|left"
+            android:paddingLeft="10dp"
+            android:text="Jugador"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5">
+
+        <View
+            android:layout_marginLeft="9dp"
+            android:id="@+id/v21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_weight="1"
+            android:textSize="50sp"
+            />
+
+        <View
+            android:layout_marginLeft="9dp"
+            android:id="@+id/v22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_weight="1"
+            android:textSize="50sp"
+            />
+
+        <View
+            android:layout_marginLeft="9dp"
+            android:id="@+id/v23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_weight="1"
+            android:textSize="50sp"
+            />
+
+        <View
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:id="@+id/v24"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="jfkansfakl"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3">
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15">
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:text="Quedar"
+            android:textSize="10sp"
+            android:layout_weight=".5"/>
+
+        <Button
+            android:id="@+id/but2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Reiniciar"
+            android:textSize="10sp"
+            android:layout_weight=".5"/>
+
+    </LinearLayout>
+</LinearLayout>
